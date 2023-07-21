@@ -1,0 +1,44 @@
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+  .mainInfo {
+    padding: 6px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    width: 600px;
+    background-color: gray;
+    .title {
+      font-family: sans-serif;
+      font-weight: bold;
+      font-size: 30px;
+      .name {
+        color: gold;
+      }
+    }
+    .infoAboutId {
+      margin-top: 15px;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      &__h2 {
+        font-family: sans-serif;
+        font-size: 15px;
+        font-weight: bold;
+      }
+      &__span {
+        color: gold;
+      }
+    }
+    .balanceInfo {
+      margin-top: 10px;
+      font-family: sans-serif;
+      font-weight: bold;
+      font-size: 25px;
+      .balanceInfoSpan {
+        color: gold;
+      }
+    }
+  }
+}

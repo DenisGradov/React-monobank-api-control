@@ -1,0 +1,69 @@
+body {
+  .MainBody {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+  }
+  .block {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    .title {
+      font-family: sans-serif;
+      font-weight: bold;
+      font-size: 30px;
+      .APImonobankLink {
+        color: #ce97a4;
+        transition-duration: 0.3s;
+        &:hover {
+          color: #b28ab9;
+          transition-duration: 0.3s;
+        }
+      }
+    }
+    .input {
+      display: block;
+      margin: 10px;
+      height: 30px;
+      width: 450px;
+      padding: 5px;
+      border: 2px solid #ce97a4;
+      transition-duration: 0.3s;
+      font-size: 30px;
+      font-family: sans-serif;
+      font-weight: bold;
+      &::placeholder {
+        color: #ce97a4;
+      }
+      &:focus {
+        border: 2px dashed #ce97a4;
+        transition-duration: 0.3s;
+      }
+    }
+    .button {
+      display: inline-block;
+      height: 44px;
+      width: 220px;
+      padding: 10px 5px;
+      font-size: 20px;
+      font-family: sans-serif;
+      font-weight: bold;
+      border: 2px solid #000000a8;
+      transition-duration: 0.3s;
+      &:hover {
+        margin-top: -4px;
+        height: 48px;
+        width: 224px;
+        transition-duration: 0.3s;
+      }
+    }
+  }
+}
+
+.loading {
+  font-size: 20px;
+}

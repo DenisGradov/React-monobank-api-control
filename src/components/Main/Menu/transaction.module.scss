@@ -1,0 +1,94 @@
+.transactionsItems {
+  background-color: rgb(255, 255, 255);
+  padding: 5px;
+  border-radius: 10px;
+  .transactionsItem {
+    background-color: wheat;
+    border-radius: 10px;
+    border: 2px solid #000;
+    margin: 5px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+
+    .item {
+      font-family: sans-serif;
+      font-weight: bold;
+      font-size: 17px;
+      color: black;
+      &Red {
+        font-family: sans-serif;
+        font-weight: bold;
+        font-size: 17px;
+        color: red;
+      }
+      &Green {
+        font-family: sans-serif;
+        font-weight: bold;
+        font-size: 17px;
+        color: green;
+      }
+    }
+  }
+}
+
+.transactionsBlock {
+  .buttons {
+    margin-top: 20px;
+    margin-bottom: -20px;
+    display: flex;
+    justify-content: space-around;
+    user-select: none;
+    .buttonsItem,
+    .buttonsItemm,
+    .buttonsItemr {
+      background: wheat;
+      font-size: 30px;
+      border-radius: 50%;
+      cursor: pointer;
+      transition-duration: 0.3s;
+      &:hover {
+        transform: scale(1.2) rotateZ(-135deg);
+        transition-duration: 0.3s;
+      }
+      &m:hover {
+        transform: scale(1.2) rotateZ(180deg);
+        transition-duration: 0.3s;
+      }
+      &r:hover {
+        transform: scale(1.2) rotateZ(135deg);
+        transition-duration: 0.3s;
+      }
+    }
+  }
+  .transactionsBlockTop {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .transactionsTitle {
+      display: block;
+      color: black;
+      font-family: sans-serif;
+      font-weight: bold;
+      font-size: 20px;
+      span {
+        color: gold;
+      }
+    }
+    .transactionsBack {
+      font-size: 40px;
+      transition-duration: 0.3s;
+      cursor: pointer;
+      &:hover {
+        transition-duration: 0.3s;
+        transform: rotateZ(50deg);
+      }
+    }
+  }
+  .transactionsBlockInfo {
+    margin-top: 30px;
+    width: 800px;
+    border: 1px solid #000;
+    border-radius: 10px;
+  }
+}

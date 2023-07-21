@@ -1,0 +1,123 @@
+.transactionsItems {
+  background-color: rgb(255, 255, 255);
+  padding: 5px;
+  border-radius: 10px;
+}
+.transactionsItems .transactionsItem {
+  background-color: wheat;
+  border-radius: 10px;
+  border: 2px solid #000;
+  margin: 5px;
+  padding: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.transactionsItems .transactionsItem .item {
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 17px;
+  color: black;
+}
+.transactionsItems .transactionsItem .itemRed {
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 17px;
+  color: red;
+}
+.transactionsItems .transactionsItem .itemGreen {
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 17px;
+  color: green;
+}
+
+.transactionsBlock .buttons {
+  margin-top: 20px;
+  margin-bottom: -20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+.transactionsBlock .buttons .buttonsItem,
+.transactionsBlock .buttons .buttonsItemm,
+.transactionsBlock .buttons .buttonsItemr {
+  background: wheat;
+  font-size: 30px;
+  border-radius: 50%;
+  cursor: pointer;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+}
+.transactionsBlock .buttons .buttonsItem:hover,
+.transactionsBlock .buttons .buttonsItemm:hover,
+.transactionsBlock .buttons .buttonsItemr:hover {
+  -webkit-transform: scale(1.2) rotateZ(-135deg);
+          transform: scale(1.2) rotateZ(-135deg);
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+}
+.transactionsBlock .buttons .buttonsItemm:hover,
+.transactionsBlock .buttons .buttonsItemmm:hover,
+.transactionsBlock .buttons .buttonsItemrm:hover {
+  -webkit-transform: scale(1.2) rotateZ(180deg);
+          transform: scale(1.2) rotateZ(180deg);
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+}
+.transactionsBlock .buttons .buttonsItemr:hover,
+.transactionsBlock .buttons .buttonsItemmr:hover,
+.transactionsBlock .buttons .buttonsItemrr:hover {
+  -webkit-transform: scale(1.2) rotateZ(135deg);
+          transform: scale(1.2) rotateZ(135deg);
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+}
+.transactionsBlock .transactionsBlockTop {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.transactionsBlock .transactionsBlockTop .transactionsTitle {
+  display: block;
+  color: black;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+}
+.transactionsBlock .transactionsBlockTop .transactionsTitle span {
+  color: gold;
+}
+.transactionsBlock .transactionsBlockTop .transactionsBack {
+  font-size: 40px;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+  cursor: pointer;
+}
+.transactionsBlock .transactionsBlockTop .transactionsBack:hover {
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+  -webkit-transform: rotateZ(50deg);
+          transform: rotateZ(50deg);
+}
+.transactionsBlock .transactionsBlockInfo {
+  margin-top: 30px;
+  width: 800px;
+  border: 1px solid #000;
+  border-radius: 10px;
+}

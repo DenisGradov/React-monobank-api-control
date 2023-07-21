@@ -1,0 +1,71 @@
+.card {
+  margin: 20px;
+  width: 200px;
+  height: 300px;
+  border: 3px solid #000;
+  border-radius: 10px;
+  background: wheat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  .cardImg {
+    padding: 5px;
+    margin-top: 10px;
+    width: 160px;
+    height: 100px;
+    border-radius: 6px;
+    background-color: #000;
+    border: 1px solid white;
+    transition-duration: 0.3s;
+    cursor: pointer;
+    &:hover {
+      transform: skew(6deg, 5deg);
+      transition-duration: 0.3s;
+    }
+  }
+  .cardInfo {
+    margin-top: 20px;
+    &Item {
+      margin: 5px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: sans-serif;
+      font-weight: bold;
+      font-size: 17px;
+      &Span {
+        color: rgb(82, 82, 82);
+      }
+      &Copy {
+        font-size: 15px;
+        cursor: pointer;
+        transition-duration: 0.3s;
+        &:hover {
+          transform: scale(1.5);
+          transition-duration: 0.3s;
+        }
+      }
+      &:nth-child(2) {
+        margin-bottom: 20px;
+      }
+    }
+  }
+  .topInfo {
+    display: flex;
+    justify-content: space-between;
+    .topInfoItem {
+      padding: 5px;
+      color: white;
+      font-family: sans-serif;
+      font-weight: bold;
+      font-size: 13px;
+    }
+  }
+  .cardNumber {
+    margin-top: 60px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+  }
+}

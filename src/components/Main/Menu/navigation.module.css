@@ -1,0 +1,22 @@
+.nav {
+  position: relative;
+  top: 30px;
+}
+.nav .button {
+  margin: 5px;
+  padding: 5px;
+  background-color: aquamarine;
+  border-radius: 10px;
+  border: 1px solid #000;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  color: black;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+}
+.nav .button:hover {
+  padding: 10px;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+}

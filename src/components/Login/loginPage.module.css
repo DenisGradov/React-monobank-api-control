@@ -1,0 +1,100 @@
+body .MainBody {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+body .block {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+body .block .title {
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+}
+body .block .title .APImonobankLink {
+  color: #ce97a4;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+}
+body .block .title .APImonobankLink:hover {
+  color: #b28ab9;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+}
+body .block .input {
+  display: block;
+  margin: 10px;
+  height: 30px;
+  width: 450px;
+  padding: 5px;
+  border: 2px solid #ce97a4;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+  font-size: 30px;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+body .block .input::-webkit-input-placeholder {
+  color: #ce97a4;
+}
+body .block .input::-moz-placeholder {
+  color: #ce97a4;
+}
+body .block .input:-ms-input-placeholder {
+  color: #ce97a4;
+}
+body .block .input::-ms-input-placeholder {
+  color: #ce97a4;
+}
+body .block .input::placeholder {
+  color: #ce97a4;
+}
+body .block .input:focus {
+  border: 2px dashed #ce97a4;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+}
+body .block .button {
+  display: inline-block;
+  height: 44px;
+  width: 220px;
+  padding: 10px 5px;
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight: bold;
+  border: 2px solid rgba(0, 0, 0, 0.6588235294);
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+}
+body .block .button:hover {
+  margin-top: -4px;
+  height: 48px;
+  width: 224px;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+}
+
+.loading {
+  font-size: 20px;
+}

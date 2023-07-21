@@ -1,0 +1,62 @@
+@charset "UTF-8";
+body .mainBlock {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh; /* Это занимает всю высоту экрана */
+  width: 100vw; /* Это занимает всю ширину экрана */
+}
+body .true {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+body .true .div {
+  width: 400px;
+  height: 200px;
+  background: gainsboro;
+  border: 1px solid #000;
+}
+body .true .div .top {
+  margin: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+body .true .div .top .title {
+  font-size: 25px;
+  font-weight: bold;
+}
+body .true .div .top .close {
+  font-size: 25px;
+  cursor: pointer;
+}
+body .true .div .top .close:hover {
+  margin-top: -5px;
+  margin-left: -5px;
+  font-size: 30px;
+}
+body .true .div .text {
+  font-size: 20px;
+}
+
+.false {
+  display: none;
+}

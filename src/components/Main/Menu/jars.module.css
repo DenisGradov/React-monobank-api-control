@@ -1,0 +1,80 @@
+.card {
+  margin: 20px;
+  width: 200px;
+  height: 265px;
+  border: 3px solid #000;
+  border-radius: 10px;
+  background: wheat;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.card .cardImg {
+  padding: 5px;
+  margin-top: 10px;
+  height: 150px;
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+  cursor: pointer;
+}
+.card .cardImg:hover {
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+}
+.card .cardInfo {
+  margin-top: 5px;
+}
+.card .cardInfoItem {
+  margin: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 17px;
+}
+.card .cardInfoItem:nth-child(2) {
+  margin-top: 10px;
+}
+.card .cardInfoItem:nth-child(3) {
+  margin-top: -20px;
+}
+.card .cardInfoItema {
+  color: rgb(82, 82, 82);
+}
+.card .cardInfoItemCopy {
+  font-size: 15px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+}
+.card .cardInfoItemCopy:hover {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+}
+.card .cardInfoItem:nth-child(2) {
+  margin-bottom: 20px;
+}
+.card .cardNumber {
+  color: black;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 13px;
+}

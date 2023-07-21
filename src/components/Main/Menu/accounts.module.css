@@ -1,0 +1,189 @@
+.main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 40px;
+}
+.main .cards .cardsBlock,
+.main .cards .jarsBlock,
+.main .jars .cardsBlock,
+.main .jars .jarsBlock {
+  margin-top: 20px;
+  width: 800px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.main .cards .cardsBlock .cardsTitle,
+.main .cards .cardsBlock .jarsTitle,
+.main .cards .jarsBlock .cardsTitle,
+.main .cards .jarsBlock .jarsTitle,
+.main .jars .cardsBlock .cardsTitle,
+.main .jars .cardsBlock .jarsTitle,
+.main .jars .jarsBlock .cardsTitle,
+.main .jars .jarsBlock .jarsTitle {
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  margin-top: 30px;
+}
+.main .cards .cardsBlock .cardsBlockItem,
+.main .cards .cardsBlock .jarsBlockItem,
+.main .cards .jarsBlock .cardsBlockItem,
+.main .cards .jarsBlock .jarsBlockItem,
+.main .jars .cardsBlock .cardsBlockItem,
+.main .jars .cardsBlock .jarsBlockItem,
+.main .jars .jarsBlock .cardsBlockItem,
+.main .jars .jarsBlock .jarsBlockItem {
+  margin-top: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.main .cards .cardsBlock .cardsBlockItem .card,
+.main .cards .cardsBlock .cardsBlockItem .jars,
+.main .cards .cardsBlock .jarsBlockItem .card,
+.main .cards .cardsBlock .jarsBlockItem .jars,
+.main .cards .jarsBlock .cardsBlockItem .card,
+.main .cards .jarsBlock .cardsBlockItem .jars,
+.main .cards .jarsBlock .jarsBlockItem .card,
+.main .cards .jarsBlock .jarsBlockItem .jars,
+.main .jars .cardsBlock .cardsBlockItem .card,
+.main .jars .cardsBlock .cardsBlockItem .jars,
+.main .jars .cardsBlock .jarsBlockItem .card,
+.main .jars .cardsBlock .jarsBlockItem .jars,
+.main .jars .jarsBlock .cardsBlockItem .card,
+.main .jars .jarsBlock .cardsBlockItem .jars,
+.main .jars .jarsBlock .jarsBlockItem .card,
+.main .jars .jarsBlock .jarsBlockItem .jars {
+  margin: 20px;
+  width: 200px;
+  height: 300px;
+  border: 3px solid #000;
+  border-radius: 10px;
+}
+.main .transactionsBlock .buttons {
+  margin-top: 20px;
+  margin-bottom: -20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+.main .transactionsBlock .buttons .buttonsItem,
+.main .transactionsBlock .buttons .buttonsItemm,
+.main .transactionsBlock .buttons .buttonsItemr {
+  background: wheat;
+  font-size: 30px;
+  border-radius: 50%;
+  cursor: pointer;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+}
+.main .transactionsBlock .buttons .buttonsItem:hover,
+.main .transactionsBlock .buttons .buttonsItemm:hover,
+.main .transactionsBlock .buttons .buttonsItemr:hover {
+  -webkit-transform: scale(1.2) rotateZ(-135deg);
+          transform: scale(1.2) rotateZ(-135deg);
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+}
+.main .transactionsBlock .buttons .buttonsItemm:hover,
+.main .transactionsBlock .buttons .buttonsItemmm:hover,
+.main .transactionsBlock .buttons .buttonsItemrm:hover {
+  -webkit-transform: scale(1.2) rotateZ(180deg);
+          transform: scale(1.2) rotateZ(180deg);
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+}
+.main .transactionsBlock .buttons .buttonsItemr:hover,
+.main .transactionsBlock .buttons .buttonsItemmr:hover,
+.main .transactionsBlock .buttons .buttonsItemrr:hover {
+  -webkit-transform: scale(1.2) rotateZ(135deg);
+          transform: scale(1.2) rotateZ(135deg);
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+}
+.main .transactionsBlock .transactionsBlockTop {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.main .transactionsBlock .transactionsBlockTop .transactionsTitle {
+  display: block;
+  color: black;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+}
+.main .transactionsBlock .transactionsBlockTop .transactionsTitle span {
+  color: gold;
+}
+.main .transactionsBlock .transactionsBlockTop .transactionsBack {
+  font-size: 40px;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+  cursor: pointer;
+}
+.main .transactionsBlock .transactionsBlockTop .transactionsBack:hover {
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+  -webkit-transform: rotateZ(50deg);
+          transform: rotateZ(50deg);
+}
+.main .transactionsBlock .transactionsBlockInfo {
+  margin-top: 30px;
+  width: 800px;
+  border: 1px solid #000;
+  border-radius: 10px;
+}
+.none {
+  background-color: wheat;
+  border-radius: 10px;
+  border: 2px solid #000;
+  margin: 5px;
+  padding: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}

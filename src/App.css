@@ -1,0 +1,14 @@
+.App {
+  text-align: center;
+}
+
+body {
+  background-image: -webkit-linear-gradient(
+    208deg,
+    #d99c9d,
+    #8677d9 51%,
+    #6072cc
+  );
+
+  background-attachment: fixed;
+}

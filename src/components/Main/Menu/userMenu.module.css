@@ -1,0 +1,55 @@
+.main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 80vh;
+}
+.main .mainInfo {
+  padding: 6px;
+  border: 1px solid #000;
+  border-radius: 10px;
+  width: 600px;
+  background-color: gray;
+}
+.main .mainInfo .title {
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+}
+.main .mainInfo .title .name {
+  color: gold;
+}
+.main .mainInfo .infoAboutId {
+  margin-top: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+.main .mainInfo .infoAboutId__h2 {
+  font-family: sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+}
+.main .mainInfo .infoAboutId__span {
+  color: gold;
+}
+.main .mainInfo .balanceInfo {
+  margin-top: 10px;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 25px;
+}
+.main .mainInfo .balanceInfo .balanceInfoSpan {
+  color: gold;
+}
