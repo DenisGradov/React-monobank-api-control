@@ -45,7 +45,7 @@ function App() {
   };
 
   //API токен монобанка
-  const [apiToken, setApiToken] = useState(false); //"uf2Ill3Io929RgcIbzqihmpXX5pd_qCb88sUtZmDIcxY"
+  const [apiToken, setApiToken] = useState(false); 
   //Запрос на апи моно
   const changeToken = (newToken) => {
     if (changeLastRequest()) {
